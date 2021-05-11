@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CalculadoraDeAlcance {
+public class Calculadora {
 
     public static void main(String[] args) {
         Scanner valorInvestido = new Scanner(System.in);
