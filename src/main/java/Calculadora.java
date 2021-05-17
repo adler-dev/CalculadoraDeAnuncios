@@ -12,13 +12,10 @@ public class Calculadora {
         int alcance = calcularAlcance(valor);
         System.out.println("Seu anúcio tem a capacidade de chegar até " + alcance + " pessoa(as)!");
 
+        valorInvestido.close();
+
     }
 
-    /**
-     *
-     * @param valor
-     * @return
-     */
     public static int calcularAlcance(double valor) {
         int alcance = 0;
         int anuncioOriginal = (int)(valor * 30);
